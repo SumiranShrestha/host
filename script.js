@@ -5,8 +5,13 @@ document.getElementById("parent1").style.cssText=("background-color:blue; color:
 document.getElementsByTagName("h1")[1].style.cssText=("background-color:blue; color:red");
 document.querySelector("h2").style.cssText=("text-align:center;text-transformation:uppercase")
 document.querySelector("#hi").style.cssText=("text-align:center;text-transformation:uppercase")
-document.querySelector("hey").style.cssText=("text-align:center;text-transformation:uppercase")
+document.querySelector(".hey").style.cssText=("text-align:center;text-transformation:uppercase")
 const change = document.querySelectorAll("h3");
 for(i=0;i<=change.length;i++){
     change[i].innerHTML=("Sumiran Shrestha");
+}
+function myFucntion(){
+    document.open();
+    document.write("<h1 >Hello world </h1>");
+    document.close();
 }
